@@ -228,6 +228,7 @@ kernel_fec_t kernel_prologue() {
   */
 
 kernel_fec_t kernel() {
+
   uint8_t s[ 4 * Nb ], rk[ 4 * Nb ], rc = 0x01;
 
   memcpy( rk, k, 16 * sizeof( uint8_t ) );
